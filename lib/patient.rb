@@ -13,7 +13,9 @@ class Patient
   end
   
   def appointments
-    
+    Appointment.all.select do |appt|
+      appt.
+    end
   end
   
   
