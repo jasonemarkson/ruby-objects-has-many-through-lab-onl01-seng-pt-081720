@@ -26,7 +26,7 @@ class Artist
   
   def genres 
     songs.all.select do |genre|
-      genre.name == self
+      genre.name
     end
   end
   
