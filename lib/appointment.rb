@@ -1,5 +1,5 @@
 class Appointments
   
   
-  @@all 
+   
 end
