@@ -24,11 +24,7 @@ class Artist
     Song.new(name, self, genre)
   end
   
-  def genres 
-    songs.all.map do |genre|
-      genre.name
-    end
-  end
+=
   
   
 end
