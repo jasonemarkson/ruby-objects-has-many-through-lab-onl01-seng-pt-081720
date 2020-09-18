@@ -28,6 +28,5 @@ class Patient
       appt.doctor
     end
   end
-  
-  
+
 end
