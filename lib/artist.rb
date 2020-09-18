@@ -25,7 +25,7 @@ class Artist
   end
   
   def genres 
-    Song.all.collect do |genre|
+    Song.all.select do |genre|
       genre.name == "rap"
     end
   end
