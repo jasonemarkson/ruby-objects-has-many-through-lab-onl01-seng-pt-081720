@@ -11,4 +11,10 @@ class Doctor
   def self.all 
     @@all
   end
+  
+  def appointments
+    Appointments.all.collect do |appt|
+      appt.
+    end
+  end
 end
