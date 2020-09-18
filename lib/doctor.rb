@@ -13,7 +13,7 @@ class Doctor
   end
   
   def appointments
-    Appointments.all.collect do |appt|
+    Appointment.all.collect do |appt|
       appt.doctor == self 
     end
   end
