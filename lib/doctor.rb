@@ -25,7 +25,6 @@ class Doctor
   end
   
   def patients
-    self.appointments.patient 
-    #binding.pry 
+
   end
 end
