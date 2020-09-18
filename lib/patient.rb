@@ -12,6 +12,6 @@ class Patient
     @@all 
   end
   
-  def 
+   
   
 end
