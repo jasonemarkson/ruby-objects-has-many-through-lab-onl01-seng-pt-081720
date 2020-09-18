@@ -25,6 +25,7 @@ class Doctor
   end
   
   def patients
+    self.appointments
     binding.pry 
   end
 end
