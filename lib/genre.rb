@@ -21,7 +21,7 @@ class Genre
   end
   
   def artists
-    binding.pry 
+
   end
   
 end
