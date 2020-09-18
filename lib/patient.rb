@@ -12,8 +12,4 @@ class Patient
     @@all 
   end
   
-  def new_appointment(date, doctor)
-    
-  end
-  
 end
